@@ -46,17 +46,3 @@ To design and implement the above APIs, adhering to RESTful principles.
 |---------------------------|----------------|--------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Book a ticket | POST /bookings | { "showtimeId": 1, "seatNumber": 15 , userId:"84438967-f68f-4fa0-b620-0f08217e76af"} | 200 OK | { "bookingId":"d1a6423b-4469-4b00-8c5f-e3cfc42eacae" }                                                                                                 |
 
-
-## Jump Start
-For your convenience, compose.yml includes Postgresql DB, the app is already pointing to this connection. In addition, you have the schema and data SQL files that can setup your DB schema and init data.
-
-## Prerequisite
-1. Java SDK - https://www.oracle.com/java/technologies/downloads/#java21
-2. Java IDE - https://www.jetbrains.com/idea/download or any other IDE
-3. Docker - https://www.docker.com/products/docker-desktop/
-
-## Instructions
-1. You may use the compose.yml file to spin up a local PostgreSQL Docker container
-2. Complete the task.
-3. On completion, put your public git repo link on the hackerrank test, make sure to push all the files.
-
